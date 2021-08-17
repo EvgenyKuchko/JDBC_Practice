@@ -26,8 +26,8 @@ public class DeleteMethod {
                     ex.printStackTrace();
                 } catch (Exception e) {
                     System.out.println(e.getMessage());
-                    System.out.println("Completed");
                 }
+                System.out.println("Completed");
             }else if(table == 2) {
                 String delete_row = "DELETE FROM POSITION WHERE TITLE_POSITION=?";
                 System.out.println("Enter title position for delete");
